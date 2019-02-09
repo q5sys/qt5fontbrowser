@@ -23,7 +23,11 @@
          <enum>QLayout::SetMaximumSize</enum>
         </property>
         <item>
-         <widget class="QLineEdit" name="userLineEdit"/>
+         <widget class="QLineEdit" name="userLineEdit">
+          <property name="placeholderText">
+           <string>Type text you want to see renedered in every font</string>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QPushButton" name="pushButton">
